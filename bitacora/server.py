@@ -19,6 +19,6 @@ def register_user():
 
 
 if __name__=="__main__":
-    host = "127.0.0.1"
-    port="5000"
+    host = "172.31.2.229"
+    port="80"
     app.run(host,port,True)

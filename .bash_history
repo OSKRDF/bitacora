@@ -51,3 +51,73 @@ ps
 python server.py 
 cd bitacora/
 python server.py 
+cd bitacora/
+python server.py 
+gi -version
+git -version
+ sudo yum -y install git
+git -version
+ls
+ls -a
+cd ..
+ls -a
+git -version
+cd bitacora
+git -version
+git --version
+cd ..
+git --version
+ls -a
+touch .gitignore
+ls
+ls -la
+cd bitacora/
+ls -la
+cd ..
+ls -la
+git add .
+ sudo yum -y install git
+git add .
+cd bitacora/
+git add .
+cd ..
+git add .
+clear
+git init
+ls -la
+git add .
+git commit -m version1
+git add .
+git commit -m version1
+git status
+ls -la
+cd .git
+ls -la
+cd branches/
+
+git add .
+cd ..
+git add .
+git commit -m version1
+git push origin master
+git init
+git add .
+git commit -m version1
+git branch
+git push origin master
+git remote add origin https://github.com/OSKRDF/bitacora.git
+git push origin master
+git branch
+git add .
+commit -m version 1
+git commit -m version 1
+git commit -m version1
+git push origin master
+cd bitacora/
+ls
+python server.py 
+ls .a
+ls -p
+ps -a
+
+python server.py 
