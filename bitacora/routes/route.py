@@ -19,9 +19,12 @@ def consult_page():
 @app.route('/register_user', methods=["post"])
 def register_user():
     data = request.form
+    file = request.files
     code, name, lastname, project, hours, date = data["code"], data["name"], data["lastname"], data["project"], data["hours"], data["date"]
     print(code, name, lastname, project, hours, date)
-    insert(code, name, lastname, project, hours, date)
+    photo = file["photo"]
+    print(photo.filename)
+    #insert(code, name, lastname, project, hours, date)
     return "User added"
 
 #@app.route('/consult_user')

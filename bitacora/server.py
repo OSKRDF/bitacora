@@ -1,5 +1,5 @@
 from flask import Flask
-#from controllers.admin_s3 import *
+from controllers.admin_s3 import *
 
 app = Flask(__name__, template_folder="template")
 from routes.route import *

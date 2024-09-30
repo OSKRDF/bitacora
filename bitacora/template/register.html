@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1>BINNACLE</h1>
-    <form action="/register_user" method="post">
+    <form action="/register_user" method="post" enctype="multipart/form-data">
         <div>
             <label for="code">Code</label>
             <input type="text" name="code" id="code" placeholder="Enter your code" required>
@@ -34,6 +34,11 @@
             <label for="date">Date</label>
             <input type="date" name="date" id="date" required>
         </div>
+        <div>
+            <label for="file">PHOTO</label>
+            <input type="file" id="file" name="photo" accept="image/*" required>
+        </div>
+
         <button type="submit">Enviar</button>
     </form>  
 </body>
