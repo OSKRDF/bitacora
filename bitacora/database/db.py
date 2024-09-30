@@ -37,3 +37,17 @@ def insert (code, name, lastname, project, hours, date):
         return None
 
 #insert()
+
+def consult(code):
+    try:
+        print("codigo"+code);
+        #instruction = "SELECT * FROM users WHERE id=" + id
+        instruction = "SELECT * FROM bitacora_db WHERE code=" + code
+        connection = connection_SQL()
+        cursor = connection.cursor()
+        cursor.execute(instruction)
+        result = cursor.fetchall()
+        return result
+    except Exception as err:
+        print("Error", err)
+        return None

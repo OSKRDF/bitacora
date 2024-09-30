@@ -121,3 +121,102 @@ ls -p
 ps -a
 
 python server.py 
+cd bitacora/
+python server.py 
+sudo python server.py
+sudo nstall flask
+sudo python server.py
+sudo pip install flask
+sudo python server.py
+sudo pip install pymsql
+pip install pymsql
+pip install pymysql
+sudo python server.py
+pip install PyMySQL
+sudo python server.py
+sudo yum install pip
+pip install pymysql
+sudo python server.py
+yum install pymysql
+sudo yum install pymysql
+sudo python server.py
+python --version
+python3 --version
+sudo pip install PyMySQL
+sudo python server.py
+git branch tarea1_ok
+git checkout tarea1_ok
+cd ..
+git branch tarea1_ok
+git branch tarea1
+checkout tarea1
+git checkout tarea1
+comit -m version-tarea
+git comit -m version-tarea
+git commit -m version-tarea
+git push origin tarea
+clear
+git branch tarea_1
+checkout tarea_1
+git checkout tarea_1
+git add .
+git commit -m version-tarea1
+git push origin tarea_1
+sudo python server.py
+cd bitacora/
+sudo python server.py
+cd template/
+ls
+touch home.html
+ls -ltr
+touch consult.html
+ls
+cd ..
+ls
+cd static/
+cd js/
+touch appConsult.js
+touch appHome.js
+cd ..
+cd cs
+cd css/
+touch styleConsult.css
+touch stileHome.css
+ls
+cd styleHome.css
+touch styleHome.css
+ls
+rm -r  stileHome.css 
+ls
+css ..
+cd ..
+ls
+cd ..
+mkdir routes
+ls
+cd routes/
+touch route.py
+cd ..
+sudo python server.py
+sudo pip install boto3
+sudo python server.py
+cd bitacora/
+sudo python server.py
+clear
+sudo python server.py
+clear
+sudo python server.py
+clear
+sudo python server.py
+clear
+sudo python server.py
+clear
+sudo python server.py
+clear
+sudo python server.py
+clear
+sudo python server.py
+clear
+sudo python server.py
+ps -a
+sudo python server.py
