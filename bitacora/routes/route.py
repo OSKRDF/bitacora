@@ -1,7 +1,7 @@
 from flask import render_template, request, jsonify
 from server import app
 from database.db import *
-#from controllers.admin_s3 import *
+from controllers.admin_s3 import *
 
 #@app.route('/')
 #def home_page():
@@ -23,6 +23,9 @@ def register_user():
     code, name, lastname, project, hours, date = data["code"], data["name"], data["lastname"], data["project"], data["hours"], data["date"]
     print(code, name, lastname, project, hours, date)
     photo = file["photo"]
+    photo_path = save_file(code,photo)
+    session_s3 = connectionS3()
+    upload_file_s3(session_s3, photo_path)
     print(photo.filename)
     #insert(code, name, lastname, project, hours, date)
     return "User added"
@@ -47,3 +50,5 @@ def consult_user():
        'date':result[0][5]
     }
     return jsonify(resp_data)
+
+    

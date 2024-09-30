@@ -13,14 +13,26 @@ def connectionS3():
 
 #def get_file(session_s3):    
 def get_file(): 
-    session_s3 = connectionS3()
+    
     bucket_project = session_s3.Bucket(bucket_name)
     bucket_objects = bucket_project.objects.all()
     for obj in bucket_objects:
        print(obj.key)
     print(bucket_objects)
-       
-  
- 
+
 get_file()
 
+
+
+def save_file(code,photo):
+    photo_path = "/tmp/" + photo.filename
+    photo.save(photo_path)
+    print("photo saved")
+    return photo_path
+
+def upload_file_s3(session_s3,photo_path):
+    image_photo_s3 = "images/photo_1.jfif"
+    session_s3.meta.client.upload_file(photo_path, bucket_name, image_photo_s3 )
+    print("photo subida")
+    #s3.upload_file()
+  
