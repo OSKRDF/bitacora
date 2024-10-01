@@ -32,6 +32,8 @@ def insert (code, name, lastname, project, hours, date):
         cursor.execute(instruction)
         connection.commit()
         print("User added")
+        return "ok" 
+
     except Exception as err:
         print("Error",err)
         return None
