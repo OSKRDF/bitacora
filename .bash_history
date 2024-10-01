@@ -220,3 +220,104 @@ clear
 sudo python server.py
 ps -a
 sudo python server.py
+3.133.127.193cd bitacora/
+cd bitacora/
+sudo python server.py
+pw
+pwd
+cd ..
+git branch test
+git checkout test
+git add .
+git commit -m keyS3
+push origin test
+git push origin test
+clear
+sudo python bitacora/controllers/admin_s3.py 
+cd bitacora/
+sudo python server.py 
+clear
+sudo python server.py 
+clerar
+clear
+sudo python server.py 
+clear
+sudo python server.py 
+clear
+sudo python server.py 
+clear
+sudo python server.py 
+clear
+sudo python server.py 
+clear
+sudo python server.py 
+sudo install boto3
+clera
+clear
+sudo python server.py 
+cd bitacora/
+cd controllers/
+sudo python admin_s3.py 
+cd ..
+sudo python server.py 
+clear
+sudo python server.py 
+ls 
+clear
+sudo python server.py 
+clear
+sudo python server.py 
+sudo python server.py .
+clear
+sudo python server.py .
+sudo python server.py 
+clear
+sudo python server.py 
+cd bitacora/
+sudo python server.py 
+git branch inicio_s3
+checkout inicio_s3
+git checkout inicio_s3
+ git add .
+ git commit -m s3-inicio
+ git commit -m s3_inicio
+git push  origin s3_inicio
+git push origin s3_inicio
+git branch
+git push origin inicio_s3
+clear
+sudo python server.py 
+cd bitacora/
+sudo python server.py 
+clear
+sudo python server.py 
+git branch subidaS3
+git checkout subidaS3
+git add .
+git commit -m version-photo_quemada
+git branch
+git push origin subidaS3
+sudo python server.py 
+clear
+sudo python server.py 
+cd bitacora/
+sudo python server.py 
+cd bitacora/
+sudo python server.py 
+clear
+sudo python server.py 
+git branch funcionaS3
+git checkout funcionaS3
+gi add .
+git add .
+git commit -m versionS3Integral
+branch
+git branch
+git push origin funcionaS3 
+sudo python server.py 
+cd bitacora/
+sudo python server.py 
+clear
+sudo python server.py 
+cd bitacora/
+sudo python server.py 

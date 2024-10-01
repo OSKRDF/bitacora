@@ -1,3 +1,4 @@
+
 from flask import render_template, request, jsonify
 from server import app
 from database.db import *
@@ -58,7 +59,7 @@ def consult_user():
             'lastname':result[0][2],
             'project':result[0][3],
             'hour':result[0][4],
-            'date':result[0][5]
+            'date':result[0][5].strftime('%Y-%m-%d')
     }
     else:
         resp_data = {'status': 'error'}
